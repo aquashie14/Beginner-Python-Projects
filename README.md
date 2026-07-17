@@ -60,6 +60,36 @@ Congratulations! You guessed the number!
 It took you 3 guesses.
 ```
 
+
+---
+
+### ✊ Rock Paper Scissors (`rock_paper_scissors.py`)
+A two-player Rock Paper Scissors game with emoji display and score tracking.
+
+**Features:**
+- Two players take turns entering their choices (r / p / s)
+- Displays emoji for each choice (✊ ✋ ✌️)
+- Determines the winner per round
+- Tracks wins, losses, and ties across multiple rounds
+- Shows full scoreboard when players quit
+
+**How to run:**
+```bash
+python rock_paper_scissors.py
+```
+
+**Sample interaction:**
+```
+Player 1, choose Rock, Paper, or Scissors (r/p/s): r
+Player 2, choose Rock, Paper, or Scissors (r/p/s): s
+Player 1 chose: ✊
+Player 2 chose: ✌️
+Player 1 wins!
+Do you want to play again? (yes/no): no
+You played 1 rounds.
+Player 1 wins: 1, Player 2 wins: 0, Ties: 0
+```
+
 ---
 
 ## Requirements
