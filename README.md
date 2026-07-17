@@ -92,9 +92,32 @@ Player 1 wins: 1, Player 2 wins: 0, Ties: 0
 
 ---
 
+### 📷 QR Code Generator (`qr_code_generator.py`)
+Generates a QR code image from any URL or text and saves it as a PNG file.
+
+**Features:**
+- Accepts any URL or text as input
+- Saves the QR code as a `.png` file with a custom filename
+- Configurable error correction, box size, and border
+
+**How to run:**
+```bash
+python qr_code_generator.py
+```
+
+**Sample interaction:**
+```
+Enter the data or URL to generate QR code: https://github.com/aquashie14
+Enter the output file name to save the QR code image (with .png extension): my_qr.png
+QR code generated and saved as my_qr.png.
+```
+
+---
+
 ## Requirements
 - Python 3.x
-- No external libraries needed (uses built-in `random` module only)
+- `qrcode[pil]` — for QR code generation (`pip install qrcode[pil]`)
+- Built-in `random` module (no install needed)
 
 ## Author
 **aquashie14** — [GitHub Profile](https://github.com/aquashie14)
